@@ -11,5 +11,11 @@ public class Main {
     System.out.println(vehicle_2.toString());
     System.out.println(vehicle_3.toString());
 
+    //    Post Reparacion
+    System.out.println("---------------");
+    vehicle_1.setBrakes(true);
+
+    System.out.println(vehicle_1.toString());
+
     }
 }
